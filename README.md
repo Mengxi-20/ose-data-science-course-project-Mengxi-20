@@ -1,6 +1,6 @@
-# OSE data science project template
+# OSE data science project summerterm 2021
 
-This is a template for course projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
+This is the final project of the OSE data science course summerterm 2021 by Mengxi Wang.
 
 ## Project overview
 
