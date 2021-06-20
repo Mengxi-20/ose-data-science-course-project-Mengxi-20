@@ -1,8 +1,10 @@
-# OSE data science project summerterm 2021
+# Student project: Replication of Chen et. al. (2020) 
 
 This is the final project of the OSE data science course summerterm 2021 by Mengxi Wang.
 
 ## Project overview
+
+This repository contains my replication of the main results from [Chen, T., Kung, J. K. S., & Ma, C. (2020)](https://doi.org/10.1093/ej/ueaa043). Long Live Keju! The Persistent Effects of China’s Civil Examination System. The Economic Journal, 130(631), 2030–2064.
 
 Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
