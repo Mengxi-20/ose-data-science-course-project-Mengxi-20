@@ -10,3 +10,4 @@ tri             Terrain ruggedness
 suitability     Agricultural suitability
 lnpopdensity    Population density (logged)
 urbanrates      Urbanisation rates
+provid          Province fixed effects
