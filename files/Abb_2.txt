@@ -1,4 +1,0 @@
-lnprint         Printed books (logged)
-pcenter         Printing centre
-bprvdist        Shortest river distance to pine/bamboo (km, logged)
-rvrdist         Shortest distance to major navigable rivers (km, logged)
