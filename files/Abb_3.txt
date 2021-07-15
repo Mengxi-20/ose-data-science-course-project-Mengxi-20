@@ -1,0 +1,4 @@
+lnnspop         Share of population with no education (×100, logged)
+lnmppop         Share of population with elementary and secondary school education (×100, logged)
+lnhighpop       Share of population with high school education (×100, logged)
+lnunipop        Share of population with university and above (×100, logged)
