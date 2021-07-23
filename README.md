@@ -8,7 +8,7 @@ This repository contains my replication of the main results from [Chen, T., Kung
 
 Chen et al. (2020) offered an ingenious design and an interesting application of instrumental variables. This observation of a strong, positive relationship between prefectures with a strong historical tradition of exam success and current years of schooling enabled Chen et al. (2020) to contribute important insights to the persistent impact of a remarkably long-lived institution — imperial China’s civil service examination system — methods of selecting candidates or current educational attainment. Moreover, Chen et al. (2020) further demonstrated that this relationship is causal by using the average river distance to a prefecture’s nearest pine and bamboo forests as an instrument, which produced the main tools for printing.
 
-Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
+This notebook successfully replicates Chen et al. (2020)’s main results. A causal relationship between the keju and current methods of selecting candidates has been verified. The main results were precisely reproduced in Section 4. In addition, the notebook contains a test of weak instruments and an examination of keju's impacts on populations with distinct levels of educational achievement in 2010 as an extension of Chen et al. (2020)’s findings in Section 5.
 
 
 <a href="https://nbviewer.jupyter.org/github/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/blob/master/replication-notebook-mengxi.ipynb"
