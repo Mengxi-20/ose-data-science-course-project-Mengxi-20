@@ -6,62 +6,32 @@ This is the final project of the OSE data science course summerterm 2021 by Meng
 
 This repository contains my replication of the main results from [Chen, T., Kung, J. K. S., & Ma, C. (2020)](https://doi.org/10.1093/ej/ueaa043). Long Live Keju! The Persistent Effects of China’s Civil Examination System. The Economic Journal, 130(631), 2030–2064.
 
+Chen et al. (2020) offered an ingenious design and an interesting application of instrumental variables. This observation of a strong, positive relationship between prefectures with a strong historical tradition of exam success and current years of schooling enabled Chen et al. (2020) to contribute important insights to the persistent impact of a remarkably long-lived institution — imperial China’s civil service examination system — methods of selecting candidates or current educational attainment. Moreover, Chen et al. (2020) further demonstrated that this relationship is causal by using the average river distance to a prefecture’s nearest pine and bamboo forests as an instrument, which produced the main tools for printing.
+
 Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
-<a href="https://nbviewer.jupyter.org/github/OpenSourceEconomics/ose-template-course-project/blob/master/example_project.ipynb"
+
+<a href="https://nbviewer.jupyter.org/github/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/blob/master/replication-notebook-mengxi.ipynb"
    target="_parent">
    <img align="center"
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://mybinder.org/v2/gh/OpenSourceEconomics/ose-template-course-project/master?filepath=example_project.ipynb"
+<a href="https://mybinder.org/v2/gh/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/master?filepath=replication-notebook-mengxi.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
        width="109" height="20">
 </a>
 
-## Reproducibility
 
-To ensure full reproducibility of your project, please try to set up a [GitHub Actions CI](https://docs.github.com/en/actions) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) is provided [here](https://github.com/OpenSourceEconomics/ose-template-course-project/blob/master/tutorial_conda_actions.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
+## Sources
 
-![Continuous Integration](https://github.com/OpenSourceEconomics/ose-template-course-project/workflows/Continuous%20Integration/badge.svg)
+* Chen, T., Kung, J. K. S., & Ma, C. (2020). Long Live Keju! The Persistent Effects of China’s Civil Examination System. *The Economic Journal*, 130(631), 2030–2064. https://doi.org/10.1093/ej/ueaa043
 
-In some cases you might not be able to run parts of your code on  [GitHub Actions CI](https://docs.github.com/en/actions) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
+* FixedEffectModel. (2021, June 29). PyPI. https://pypi.org/project/FixedEffectModel/
 
-```python
-# If we are running on GitHub Actions CI we will simply load a file with existing results.
-if os.environ.get("CI") == "true":
-  rslt = pkl.load(open('stored_results.pkl', 'br'))
-else:
-  rslt = compute_results()
+* Jing, X., & Liu, L. (2019). The Equity of Gaokao (National University/College Entrance Examination) in China. *Review of Educational Theory*, 2(3), 29. https://doi.org/10.30564/ret.v2i3.881
 
-# Now we are ready for further processing.
-...
-```
+* Semykina & Wooldridge (2010). Estimating panel data models in the presence of endogeneity and selection. *Journal of Econometrics*, 157(2): pp. 375-380. https://doi.org/10.1016/j.jeconom.2010.03.039
 
-However, if you decide to do so, please be sure to provide an explanation in your notebook explaining why exactly this is required in your case.
-
-## Structure of notebook
-
-A typical project notebook has the following structure:
-
-* presentation of baseline article with proper citation and brief summary
-
-* using causal graphs to illustrate the authors' identification strategy
-
-* replication of selected key results
-
-* critical assessment of quality
-
-* independent contribution, e.g. additional external evidence, robustness checks, visualization
-
-There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead. Please use the opportunity to review other student projects for some inspirations as well.
-
-## Project Example
-
-The notebook [example_project.ipynb](https://github.com/OpenSourceEconomics/ose-template-course-project/blob/master/example_project.ipynb) contains an example project by [Annica Gehlen](https://github.com/amageh) from the 2019 iteration of the [OSE data science](https://github.com/OpenSourceEconomics/ose-course-data-science) class at Bonn University. It replicates the results from the following paper:
-
-* Lindo, J. M., Sanders, N. J., & Oreopoulos, P. (2010). [Ability, Gender, and Performance Standards: Evidence from Academic Probation](https://www.aeaweb.org/articles?id=10.1257/app.2.2.95). *American Economic Journal: Applied Economics*, 2(2), 95-117.
-
-Lindo et al. (2010) examine the effects of academic probation on student outcomes using a regression discontinuity design. The analysis is based on data from a large Canadian university and evaluates whether academic probation is successful in improving the performance of low scoring students. Consistent with a model of performance standards, the authors find that being placed on probation in the first year of university induces some students to drop out of school while it improves the grades of students who continue their studies. In a more general sense, academic probation can offer insights into how agents respond to negative incentives and the threat of punishment in a real-world context.
