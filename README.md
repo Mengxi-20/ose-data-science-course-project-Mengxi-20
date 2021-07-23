@@ -30,6 +30,8 @@ To ensure the reproducibility of the project, the repository is supported by a G
 
 [![Continuous Integration](https://github.com/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/actions/workflows/ci.yml)
 
+The codes presenting Table 10, Table 11 and Table 12 are not able to run on GitHub Actions CI, probably because the package (FixedEffectModel) that used in this part is a very specific package and was only updated last month. Therefore, I marked # before every line of related codes for Table 10, Table 11 and Table 12, and then loaded the results in form of image to make them readable.
+
 
 ## Sources
 
