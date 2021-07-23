@@ -29,9 +29,11 @@ This notebook successfully replicates Chen et al. (2020)’s main results. A cau
 
 * Chen, T., Kung, J. K. S., & Ma, C. (2020). Long Live Keju! The Persistent Effects of China’s Civil Examination System. *The Economic Journal*, 130(631), 2030–2064. https://doi.org/10.1093/ej/ueaa043
 
-* FixedEffectModel. (2021, June 29). PyPI. https://pypi.org/project/FixedEffectModel/
+* Jeffrey M Wooldridge. Econometric analysis of cross section and panel data. MIT press, 2010.
 
 * Jing, X., & Liu, L. (2019). The Equity of Gaokao (National University/College Entrance Examination) in China. *Review of Educational Theory*, 2(3), 29. https://doi.org/10.30564/ret.v2i3.881
+
+* Kuaishou DA Ecology. FixedEffectModel: A Python Package for Linear Model with High Dimensional Fixed Effects.https://github.com/ksecology/FixedEffectModel,2020.Version 0.x
 
 * Semykina & Wooldridge (2010). Estimating panel data models in the presence of endogeneity and selection. *Journal of Econometrics*, 157(2): pp. 375-380. https://doi.org/10.1016/j.jeconom.2010.03.039
 
