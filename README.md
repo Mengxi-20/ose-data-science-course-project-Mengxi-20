@@ -26,9 +26,10 @@ This notebook successfully replicates Chen et al. (2020)’s main results. A cau
 
 ## Reproducibility
 
-To ensure the reproducibility of the project, the repository is supported by a GitHub Actions Continuos Integration (CI). The state of my workflow can be found [here](https://github.com/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/actions):
+To ensure the reproducibility of the project, the repository is supported by a GitHub Actions Continuos Integration (CI). The state of my workflow can be found here:
 
-![Continuous Integration](https://github.com/OpenSourceEconomics/ose-data-science-course-projeect-Mengxi-20/actions/workflows/ci.yml/badge.svg)
+[![Continuous Integration](https://github.com/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenSourceEconomics/ose-data-science-course-project-Mengxi-20/actions/workflows/ci.yml)
+
 
 ## Sources
 
